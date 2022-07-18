@@ -16,7 +16,6 @@ html{
 }
 .items1{
     display: grid;
-    /*place-items: center;*/
     grid-template-columns: 3 1fr;
     grid-template-rows: 72px 266px 266px;
     gap: 40px; 
@@ -45,7 +44,11 @@ html{
         "A A B C"
         "A A D E"
         "F G H I";
-    text-align:center;
+}
+.item-1, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8, .item-9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .item-1{
     grid-area: A;
