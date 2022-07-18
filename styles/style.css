@@ -16,12 +16,16 @@ html{
 }
 .items1{
     display: grid;
+    /*place-items: center;*/
     grid-template-columns: 3 1fr;
     grid-template-rows: 72px 266px 266px;
     gap: 40px; 
     margin-bottom: 60px;
 }
 .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #DEE4EB;
     text-align:center;
     border-radius: 6px;
